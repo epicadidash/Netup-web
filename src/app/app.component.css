@@ -1,0 +1,8 @@
+.star{
+    width: 200px;
+}
+div{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}

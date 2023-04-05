@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Netup';
+  onSave(){
+    console.log("hi")
+  }
+  onSav(event){
+    console.log(event)
+  }
 }
