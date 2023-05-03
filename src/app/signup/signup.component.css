@@ -87,7 +87,7 @@ body {
 .login {
 	width: 320px;
 	padding: 30px;
-	padding-top: 80px;
+	padding-top: 0px;
 }
 
 .login__field {
@@ -179,10 +179,9 @@ text-align: center;
 }
 .heading{
 	margin-left: 40px;
-	margin-top: 90px;
+	margin-top: 50px;
 	font-weight: 700;
 }
-
 .hr-lines:before{
 	content:" ";
 	display: block;
