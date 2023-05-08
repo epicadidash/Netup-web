@@ -1,0 +1,11 @@
+#profile-image{
+    border-radius:  8vw; 
+    width: 8vw;
+    height: 8vw;
+    image-rendering: crisp-edges;
+    
+}
+#content-box{
+    display: flex;
+    flex-direction: column;
+}
