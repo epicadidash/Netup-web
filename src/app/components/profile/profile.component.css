@@ -6,9 +6,10 @@
     
 }
 #content-box{
-    width: 17vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
+    margin: 1.2vh;
 
 }
 #box{
@@ -16,4 +17,9 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+}
+.indica{
+    padding-top: 1.2vh;
+    display: flex;
+    flex-direction: column;
 }
