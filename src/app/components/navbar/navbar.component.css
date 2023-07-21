@@ -6,7 +6,7 @@
     gap: 20px;
     width: 100vw;
     height: 60px;
-    background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+    background: linear-gradient(to right, #c471f5, #fa71cd);
     align-items: center;
     justify-content: center;
     white-space: nowrap;
@@ -39,6 +39,6 @@ background-color: #ffffff00;
 
 .navbtn:active,
 .navbtn:hover {
-  background-color: rgba(80, 0, 0, 0.192);
+  background-color: #50000031;
   color:  #ffffff;
 }
