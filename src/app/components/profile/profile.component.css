@@ -5,7 +5,7 @@
     image-rendering: crisp-edges;
     
 }
-#content-box{
+.content-box{
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,4 @@
 }
 .indica{
     padding-top: 1.2vh;
-    display: flex;
-    flex-direction: column;
 }
