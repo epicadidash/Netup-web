@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent {
+  star:String = 'hello'
 @Input() name = ''
 @Input() username = ''
 @Input() email = ''
