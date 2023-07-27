@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #profile-image{
     border-radius: 350px;
     width: 350px;
@@ -14,12 +18,54 @@ height: 350px;
     margin: 1.2vh;
 
 }
+span{
+    margin-top: 5vh;
+}
+.contet-box{
+    display: flex;
+    flex-direction: column;
+}
+.italic{
+    color: #000;
+font-family: Sarabun;
+font-size: 34px;
+font-style: italic;
+font-weight: 275;
+line-height: normal;
+}
+.strong{
+    color: #000;
+    font-family: Sansita;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
 #box{
     display: flex;
-    width: 100vw;
     justify-content: center;
     align-items: center;
 }
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .indica{
-    padding-top: 1.2vh;
+    padding-top: 7.2vh;
+}
+.edit-btn{
+margin-top: 5vh;
+border-radius: 43px;
+background: #464646;
+width: 332px;
+height: 75px;
+border: none;
+color: #ffffff;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
 }
