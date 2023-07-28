@@ -4,3 +4,8 @@ body {
     margin: 0;
     /* background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg"); */
 }
+html {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto;   /* Enable vertical scrolling */
+    scroll-behavior: smooth;
+  }
