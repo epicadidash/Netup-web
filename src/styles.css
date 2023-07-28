@@ -5,7 +5,12 @@ body {
     /* background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg"); */
 }
 html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-x: hidden; /* Hide horizontal scrollbar */
     overflow-y: auto;   /* Enable vertical scrolling */
     scroll-behavior: smooth;
+  }
+  html::-webkit-scrollbar{
+    display: none;
   }
