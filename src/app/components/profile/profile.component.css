@@ -44,6 +44,7 @@ line-height: normal;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 120vh;
 }
 .center{
     justify-content: center;
@@ -56,7 +57,8 @@ line-height: normal;
 .edit-btn{
 margin-top: 5vh;
 border-radius: 43px;
-background: #464646;
+background: #4681f4;
+opacity: 0.85;
 width: 332px;
 height: 75px;
 border: none;
@@ -65,5 +67,10 @@ font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
-line-height: normal; 
+line-height: normal;
+cursor: pointer; 
+}
+.edit-btn:hover{
+opacity: 1;
+transition: all 0.3s
 }
