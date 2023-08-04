@@ -74,8 +74,3 @@ cursor: pointer;
 opacity: 1;
 transition: all 0.245s
 }
-#starteb{
-    stroke-dasharray: none;
-    color: #000;
-    border: #4681f4;
-}
